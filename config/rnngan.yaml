@@ -1,0 +1,29 @@
+dataset:
+  name: essen
+  path: /data
+
+optimizer:
+  type: Adam
+  lr: 0.001
+
+generator:
+  random_dim: 2
+  hidden_dim: 20
+  num_layers: 2
+  bidirectional: True
+
+discriminator:
+  hidden_dim: 30
+  num_layers: 2
+  bidirectional: False
+
+dataloader:
+  random_noise_ratio: 0.0
+  batch_size: 10
+  shuffle: True
+
+epoch:
+  max_len: 16
+  epoch_per_len: 12
+  
+

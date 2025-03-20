@@ -1,0 +1,35 @@
+defaults:
+  - override hydra/job_logging: custom
+
+hydra:
+  job:
+    chdir:
+      True
+
+mode: train
+
+prompt:
+  key: ""
+  bit_len: ""
+  tune: ""
+  default_bit_len: "1/8"
+  default_key: "C"
+
+dataset:
+  path: data/dataset_abctunes.json
+
+model:
+  hidden_dim: 125
+  num_layers: 3
+  path: null
+
+training:
+  batch_size: 20
+  dropout: 0.5
+  lr: 0.002
+  epochs: 10
+
+generate:
+  eval: True
+  max_len: 800
+  random: True

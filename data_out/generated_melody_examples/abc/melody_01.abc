@@ -1,0 +1,9 @@
+X: 0
+L: 1/8
+K: C
+CFG | A2GF2F | F2
+F | ABcd | e2z
+BAG | FGdcBA | G2z
+cec | =A2FAG^B | c2z
+GAB | G3B=AB | c2z
+ddd | ffecdB | c3

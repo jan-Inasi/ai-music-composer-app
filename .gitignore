@@ -1,0 +1,14 @@
+.vscode/*
+.ipynb_checkpoints/*
+__pycache__/*
+*/__pycache__/*
+data/*
+data_out/*
+runs/*
+multirun/*
+outputs/*
+models/serialized/*
+
+!data/dataset_abctunes.json
+!models/serialized/abcrnn-h512-e25.pt
+!data_out/generated_melody_examples

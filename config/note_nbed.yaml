@@ -1,0 +1,10 @@
+
+dataset:
+  name: essen
+  path: data
+  window_size: 5
+
+hparams:
+  pitch_emb_dim: 12
+  dur_emb_dim: 8
+  shared_emb_dim: 16
